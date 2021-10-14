@@ -1,20 +1,7 @@
 import os
 
 # Variables
-starting = "forest"
-
-# Classes
-class Stats:
-    hp = 5
-    atk = 3
-
-class Rooms:
-    def forest():
-        name = "forest"
-        # N, W, S, E
-        places = ['chest', 'cave', '', '']
-
-        return name, places
+hp = 5
 
 # Functions
 def clear():
@@ -22,18 +9,11 @@ def clear():
 
 # Main game function
 def main():
-    if starting == "forest":
-        name, places = Rooms.forest()
-    else:
-        print("ERR: 001: Starting point: changed")
-        quit()
-    
-    if Stats.hp / Stats.atk != 2.5:
-        print("ERR: 002: Stats: changed")
-        quit()
+    print("You wake up in a forest")
+    print("There is a cave in front of you and a path to your left.")
 
     while True:
         pass
-
+    
 if __name__ == "__main__":
     main()
