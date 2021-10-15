@@ -1,5 +1,12 @@
 import os
 
+try:
+    admin = open('admin', 'r').read()
+    if admin == "DEBUG":
+        print("Debug")
+except:
+    pass
+
 # Variables
 hp = 5
 
@@ -14,6 +21,6 @@ def main():
 
     while True:
         pass
-    
+
 if __name__ == "__main__":
     main()
