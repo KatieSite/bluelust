@@ -1,16 +1,5 @@
 import os
 
-try:
-    admin = open('admin', 'r').read()
-    if admin == "DEBUG":
-        print("Level Select: ")
-        lvl = input()
-        int(lvl)
-
-        print(lvl)
-except:
-    pass
-
 # Variables
 hp = 5
 
@@ -24,7 +13,7 @@ def main():
     print("There is a cave in front of you and a path to your left.")
 
     while True:
-        pass
+        place = input("Which way do you want to go? ")
 
 if __name__ == "__main__":
     main()
