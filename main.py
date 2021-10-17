@@ -13,7 +13,10 @@ def main():
     print("There is a cave in front of you and a path to your left.")
 
     while True:
-        place = input("Which way do you want to go? ")
+        place = input("Which way do you want to go? (f: Forawrd, l: Left)  ")
+
+        if place == "f":
+            print("You walk into the cave and see a ladder."
 
 if __name__ == "__main__":
     main()
