@@ -16,7 +16,7 @@ def main():
         place = input("Which way do you want to go? (f: Forawrd, l: Left)  ")
 
         if place == "f":
-            print("You walk into the cave and see a ladder."
+            print("You walk into the cave and see a ladder.")
 
 if __name__ == "__main__":
     main()
