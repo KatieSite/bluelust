@@ -3,7 +3,11 @@ import os
 try:
     admin = open('admin', 'r').read()
     if admin == "DEBUG":
-        print("Debug")
+        print("Level Select: ")
+        lvl = input()
+        int(lvl)
+
+        print(lvl)
 except:
     pass
 
